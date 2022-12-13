@@ -23,6 +23,7 @@ struct ToDoListApp{
 // When an event is triggered, the information that it logs is stored in the blockchain's transaction log and can be accessed by 
 // external applications.
 event ToDoEvent (
+  // Indexing an argument in an event allows external applications to search for and filter events based on the value of that argument.
   address indexed account,
   uint256 indexed userId,
   string message,
