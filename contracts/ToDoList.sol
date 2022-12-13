@@ -30,5 +30,14 @@ event ToDoEvent (
   bool completed
 );
 
+// mapping is a data structure that allows you to store and retrieve data associated with a particular key.
+// It is similar to a hash table or a dictionary in other programming languages. Mappings are often used to 
+// create data structures that represent associations or relationships between different pieces of data. 
+mapping (address => ToDoListApp) public toDoListApps;
+
+constructor( ){
+
+}
+
 
 }
