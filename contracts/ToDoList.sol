@@ -11,7 +11,10 @@ contract ToDoList{
 
 
 struct ToDoListApp{
-  
+  address account;
+  uint256 userId;
+  string message;
+  bool completed;
 }
 
 
