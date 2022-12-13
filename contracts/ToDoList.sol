@@ -35,6 +35,10 @@ event ToDoEvent (
 // create data structures that represent associations or relationships between different pieces of data. 
 mapping (address => ToDoListApp) public toDoListApps;
 
+
+// a constructor is a special function that is executed when an instance of a contract is created. 
+// The purpose of a constructor is to initialize the contract's state, and to ensure that the contract 
+// is set up properly before it is used.
 constructor( ){
 
 }
